@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The Colouriser</title>
+        <link rel="stylesheet" href="style.css"/>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <div class="header">The Colouriser</div>
+        <div class="section1 weird"><strong>CLICK ME TO GET FUNKY!!!</strong></div>
+        <div class="weird2">Current color: #FFFFFF</div>
+        <div class="section2">
+            <div class="slider">
+                <input type="range" min="0" max="255" value="255" id = "red-slider" class="slide">
+                <input type="number" min="0" max="255" value="255" id = "red-num" class="num">
+                <p>Red</p>
+            </div>
+            <div class="slider">
+                <input type="range" min="0" max="255" value="255" id = "green-slider" class="slide">
+                <input type="number" min="0" max="255" value="255" id = "green-num" class="num">
+                <p>Green</p>
+            </div>
+            <div class="slider">
+                <input type="range" min="0" max="255" value="255" id = "blue-slider" class="slide">
+                <input type="number" min="0" max="255" value="255" id = "blue-num" class="num">
+                <p>Blue</p>
+            </div>
+        </div>
+        <div class = "divider"></div>
+        <div class="section3">
+            <form class="search-form">
+                <input type="text" class="search" placeholder="Color or family">
+                <ul class="suggestions">
+                  <li>Filter for a color</li>
+                  <li>or a color family</li>
+                </ul>
+            </form>        
+        </div>
+        <div class = "divider"></div>
+        <div class="footer">I apologise for making this monstrosity.</div>
+        <script src="code.js"></script>
+    </body>
+</html>
